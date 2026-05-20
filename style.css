@@ -102,19 +102,46 @@ footer {
 
 /*         RESPONSIVE         */
     /*Computadores*/
-@media (max-width: 1280px) {
+@media (max-width: 1546px) {
+    .meio-circulo {
+        height: 550px; /*Altura*/
+    }
+}
+
+
+@media (max-width: 1295px) {
     form {
-        top: 30%; /*Move a caixa 33% para baixo*/
+        width: 25%;
+        height: 50%;
+        top: 32%;
+        left: 12%;
     }
 
     .meio-circulo {
-        height: 600px; /*Altura*/
+        height: 500px; /*Altura*/
+    }
+
+    #botão {
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    form {
+        top: 30%; /*Move a caixa 33% para baixo*/
+        height: 60%;
+    }
+
+    .meio-circulo {
+        height: 550px; /*Altura*/
     }
 }
 
 
 @media (max-width: 1024px) {
     form {
+        width: 30%;
         height: 63%; /*Altura*/
         top: 35%; /*Move a caixa 35% para baixo*/
     }
@@ -127,15 +154,15 @@ footer {
 
     
 /*Tablets*/
-@media(min-width: 600px) and (max-width: 912px){
+@media(min-width: 788px) and (max-width: 912px){
     form {
-        width: 40%; /*Largura*/
-        height: 60%; /*Altura*/
-        top: 40%; /*Move a caixa 40% para baixo*/
+        width: 30%; /*Largura*/
+        height: 55%; /*Altura*/
+        top: 32%; /*Move a caixa 40% para baixo*/
     }
 
     .meio-circulo {
-        margin-top: 10%; /*Move o meio circulo 10% para baixo*/
+        margin-top: 1%; /*Move o meio circulo 10% para baixo*/
     }
 }
 
