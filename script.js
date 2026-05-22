@@ -33,7 +33,7 @@ function validarFormulario(event) {
     
     //Se todas as validações passarem
     alert('Primeiros dados cadastrados!');
-    window.location.href='../Avaliação IV (ajeitar)/AvaliaçãoFormadoraIV2.html'
+    window.location.href='pagina2.html'
 }
 
 
