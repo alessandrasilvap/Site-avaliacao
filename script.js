@@ -53,7 +53,9 @@ function mascaraCPF(v) {
 
 
 //Função que valida todos os campos de cadastro da segunda tela.
-function validarFormu() {
+function validarFormu(event) {
+    event.preventDefault();
+    
     var celular = document.getElementById('celular').value;
     var telFixo = document.getElementById('telFixo').value;
     var cep = document.getElementById('cep').value;
