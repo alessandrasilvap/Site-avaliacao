@@ -100,99 +100,30 @@ footer {
 
 
 
-/*         RESPONSIVE         */
-    /*Computadores*/
-@media (max-width: 1546px) {
-    .meio-circulo {
-        height: 550px; /*Altura*/
-    }
-}
-
-
-@media (max-width: 1295px) {
-    form {
-        width: 25%;
-        height: 50%;
-        top: 32%;
-        left: 12%;
-    }
-
-    .meio-circulo {
-        height: 500px; /*Altura*/
-    }
-
-    #botão {
-        margin-left: 20%;
-    }
-}
-
-
-@media (max-width: 1280px) {
-    form {
-        top: 30%; /*Move a caixa 33% para baixo*/
-        height: 60%;
-    }
-
-    .meio-circulo {
-        height: 550px; /*Altura*/
-    }
-}
-
-
-@media (max-width: 1024px) {
-    form {
-        width: 30%;
-        height: 63%; /*Altura*/
-        top: 35%; /*Move a caixa 35% para baixo*/
-    }
-
-    .meio-circulo {
-        margin-top: 5%; /*Move o meio circulo 5% para baixo*/
-    }
-}
-    
-
-    
-/*Tablets*/
-@media(min-width: 788px) and (max-width: 912px){
-    form {
-        width: 30%; /*Largura*/
-        height: 55%; /*Altura*/
-        top: 32%; /*Move a caixa 40% para baixo*/
-    }
-
-    .meio-circulo {
-        margin-top: 1%; /*Move o meio circulo 10% para baixo*/
-    }
-}
-
-
-@media (min-width: 480px) and (max-width: 599px) {
-    form {
-        width: 55%; /*Largura*/
-        height: 60%; /*Altura*/
-        top: 41%; /*Move a caixa 41% para baixo*/
-        left: 1%; /*Move a caixa 1% para esquerda*/
-    }
-
-    #botão {
-        margin-left: 10%; /*Move a caixa 10% para esquerda*/
-    }
-}
-
-
-    
-/*Celulares*/
+/*Responsive*/
 @media(max-width: 479px) {
     form {
-        width: 65%; /*Largura*/
-        height: 53%; /*Altura*/
-        top: 44%; /*Move a caixa 44% para baixo*/
-        left: 1%; /*Move a caixa 1% para esquerda*/
+        width: 50%;
+        height: 50%;
+        top: 45%;
+        left: 5px;
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 1%;
+        width: 12em;
+    }
+
+    select {
+        height: 8%;
+        margin-left: 1%;
+        width: 9em;
     }
 
     .meio-circulo {
         margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
     }
 
     .meio-circulo img {
@@ -204,47 +135,224 @@ footer {
     }
 }
 
-
-@media(max-width: 430px) {
-    .meio-circulo img {
-        width: 200%; /*Largura*/
-    }
-}
-
-
-@media(max-width: 375px) {
+@media(min-width: 480px) and (max-width: 540px) {
     form {
-        width: 70%; /*Largura*/
-        height: 63%; /*Altura*/
-        top: 46%; /*Move a caixa 46% para baixo*/
+        width: 40%;
+        height: 50%;
+        top: 45%;
+        left: 5%;
     }
 
-    .meio-circulo img {
-        width: 220%; /*Largura*/
+    input {
+        padding: 1px;
+        margin-left: 1%;
+        width: 12em;
     }
 
-    #botão {
-        margin-left: 5%; /*Move a caixa 5% para esquerda*/
-    }
-}
-
-
-@media(max-width: 360px) {
-    form {
-        width: 75%; /*Largura*/
-        height: 60%; /*Altura*/
-        top: 46%; /*Move a caixa 46% para baixo*/
-        left: 2%; /*Move a caixa 2% para esquerda*/
+    select {
+        height: 8%;
+        margin-left: 1%;
+        width: 9em;
     }
 
-    #botão {
-        margin-left: 5%; /*Move a caixa 5% para esquerda*/
-    }
-}
-
-
-@media(max-width: 320px) {
     .meio-circulo {
-        margin-top: 55%; /*Move a caixa 55% para baixo*/
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
+    }
+}
+
+@media(min-width: 541px) and (max-width: 623px) {
+    form {
+        width: 45%;
+        height: 50%;
+        top: 36%;
+        left: 15px;
+    }
+    
+    input {
+        padding: 1px;
+        margin-left: 1%;
+        width: 12em;
+    }
+
+    select {
+        width: 9em;
+        margin-left: 2%;
+    }
+
+    .meio-circulo {
+        height: 550px;
+    }
+}
+
+@media(min-width: 624px) and (max-width: 767px) {
+    form {
+        width: 40%;
+        height: 50%;
+        top: 39%;
+        left: 5%;
+    }
+
+    input {
+        padding: 1px;
+    }
+
+    select {
+        width: 7em;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    form {
+        width: 40%;
+        height: 50%;
+        top: 39%;
+        left: 5%;
+    }
+
+    input {
+        padding: 1px;
+    }
+
+    select {
+        width: 11.5em;;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
+    }
+}
+
+@media(min-width: 1024px) and (max-width: 1279px) {
+    form {
+        width: 40%;
+        height: 50%;
+        top: 39%;
+        left: 5%;
+    }
+
+    label {
+        margin-left: 10%; /*Move as legendas dos input para a esquerda*/
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 20%;
+    }
+
+    select {
+        width: 11.5em;;
+        margin-left: 20%;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
+    }
+}
+
+@media(min-width: 1280px) and (max-width: 1439px) {
+    form {
+        width: 40%;
+        height: 50%;
+        top: 42%;
+        left: 5%;
+    }
+
+    label {
+        margin-left: 10%; /*Move as legendas dos input para a esquerda*/
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 20%;
+    }
+
+    select {
+        width: 11.5em;;
+        margin-left: 20%;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
+    }
+}
+
+@media(min-width: 1440px) {
+    form {
+        width: 40%;
+        height: 50%;
+        top: 39%;
+        left: 5%;
+    }
+
+    label {
+        margin-left: 10%; /*Move as legendas dos input para a esquerda*/
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 20%;
+    }
+
+    select {
+        width: 11.5em;;
+        margin-left: 20%;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    #botão {
+        margin-left: 15%; /*Move a caixa 15% para esquerda*/
     }
 }

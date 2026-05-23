@@ -85,7 +85,7 @@ function validarFormu() {
 
     //Se todas as validações passarem
     alert('Dados cadastrados!');
-    return true; //Opcional, já que você está redirecionando
+    window.location.href='https://alessandrasilvap.github.io/Portfolio-website/'
 }
 
 

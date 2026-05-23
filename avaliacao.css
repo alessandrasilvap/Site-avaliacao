@@ -91,6 +91,7 @@ a {
     width: 10em; /*Largura*/
     height: 5%; /*Altura*/
     margin-left: 9%; /*Move o button 10% para a esquerda*/
+    margin-top: 5px;
     border-radius: 3em; /*Bordas arredondadas*/
     background-color: #1e57a4; /*Cor do fundo*/
     color: white; /*Cor do texto*/
@@ -123,179 +124,226 @@ footer {
 
 
 
-/*         RESPONSIVE         */
-    /*Computadores*/
-@media (max-width: 1280px) {
+/*Responsive*/
+@media(max-width: 479px) {
+    form {
+        width: 50%;
+        height: 63%;
+        top: 38%;
+        left: 5px;
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 10%;
+        width: 12em;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+}
+
+@media(min-width: 480px) and (max-width: 540px) {
     form {
         width: 40%;
-        height: 75%;
-        top: 30%; /*Move a caixa 33% para baixo*/
+        height: 63%;
+        top: 39%;
         left: 5%;
     }
 
+    input {
+        padding: 1px;
+        margin-left: 1%;
+        width: 12em;
+    }
+
     .meio-circulo {
-        height: 700px;
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botoes {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-
-@media (max-width: 1085px) {
+@media(min-width: 541px) and (max-width: 622px) {
     form {
         width: 45%;
-        left: 2%;
+        height: 65%;
+        top: 36%;
+        left: 15px;
     }
-}
-
-
-@media (max-width: 963px) {
-    form {
-        width: 50%;
-        top: 32%;
-        left: 1%;
-    }
-
-    .meio-circulo {
-        height: 700px;
-        margin-top: 1%;
-    }
-}
     
-
-    
-/*Tablets*/
-@media(min-width: 723px) and (max-width: 912px){
-    form {
-        width: 60%;
-        height: 70%;
-        top: 35%;
+    input {
+        padding: 1px;
     }
 
     .meio-circulo {
-        margin-top: 2%;
-    }
-}
-
-
-@media(min-width: 623px) and (max-width: 722px){
-    form {
-        width: 70%;
-        height: 75%;
-        top: 32%;
-    }
-
-    .meio-circulo {
-        margin-top: 2%;
+        height: 550px;
     }
 
     .meio-circulo img {
-        width: 170%;
+        width: 150%; /*Largura*/
     }
 
     #botoes {
-        width: 10em;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: 6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-
-@media(min-width: 600px) and (max-width: 622px){
+@media(min-width: 623px) and (max-width: 767px) {
     form {
-        width: 75%;
-        top: 38%;
-    }
-
-    #botoes {
-        width: 10em;
-    }
-}
-
-
-@media (min-width: 480px) and (max-width: 599px) {
-    form {
-        width: 60%;
-        height: 80%;
-        top: 41%;
-    }
-
-    .meio-circulo {
-        height: 800px;
-        margin-top: 2%;
-    }
-
-    #botão {
-        margin-left: 10%;
-    }
-}
-
-
-    
-/*Celulares*/
-@media(max-width: 479px) {
-    form {
-        width: 65%;
-        height: 80%;
-        top: 42%;
-    }
-
-    .meio-circulo {
-        margin-top: 3%;
-    }
-
-    .meio-circulo img {
-        width: 180%;
-    }
-
-    #botoes {
-        width: 8em;
-        margin-left: 3%;
-    }
-}
-
-
-@media(max-width: 430px) {
-    .meio-circulo img {
-        width: 220%;
-    }
-
-    #botoes {
-        width: 8em;
-        margin-left: 3%;
-    }
-}
-
-
-@media(max-width: 377px) {
-    form {
-        width: 70%;
+        width: 40%;
         height: 63%;
-        top: 46%;
+        top: 35%;
+        left: 5%;
+    }
+
+    input {
+        padding: 1px;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
     }
 
     .meio-circulo img {
-        width: 220%;
+        width: 150%; /*Largura*/
     }
 
-    #botão {
-        margin-left: 5%;
+    #botoes {
+        margin-top: 15px;
+        margin-left: 8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-
-@media(max-width: 376px) {
+@media(min-width: 768px) and (max-width: 1023px) {
     form {
-        width: 75%;
-        height: 60%;
-        top: 46%;
-        left: 2%;
+        width: 40%;
+        height: 63%;
+        top: 30%;
+        left: 5%;
     }
 
-    #botão {
-        margin-left: 5%;
+    input {
+        padding: 1px;
+    }
+
+    .meio-circulo {
+        height: 530px;
+    }
+
+    #botoes {
+        margin-top: 20px;
     }
 }
 
+@media(min-width: 1024px) and (max-width: 1279px) {
+    form {
+        width: 40%;
+        height: 63%;
+        top: 35%;
+        left: 5%;
+    }
 
-@media(max-width: 320px) {
+    label {
+        margin-left: 10%; /*Move as legendas dos input para a esquerda*/
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 20%;
+    }
+
+    #buscar {
+        margin-left: 20%;
+    }
+
     .meio-circulo {
-        margin-top: 55%;
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+
+    #botoes {
+        margin-top: 20px; 
+    }
+}
+
+@media(min-width: 1280px) and (max-width: 1439px) {
+    form {
+        width: 40%;
+        height: 60%;
+        top: 35%;
+        left: 5%;
+    }
+
+    label {
+        margin-left: 10%; /*Move as legendas dos input para a esquerda*/
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 20%;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
+    }
+
+    .meio-circulo img {
+        width: 150%; /*Largura*/
+    }
+}
+
+@media(min-width: 1440px) {
+    form {
+        width: 40%;
+        height: 57%;
+        top: 38%;
+        left: 5%;
+    }
+
+    label {
+        margin-left: 10%; /*Move as legendas dos input para a esquerda*/
+    }
+
+    input {
+        padding: 1px;
+        margin-left: 20%;
+    }
+
+    .meio-circulo {
+        margin-top: 3%; /*Move a caixa 3% para baixo*/
+        height: 550px;
     }
 }
