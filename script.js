@@ -73,7 +73,7 @@ function validarFormu() {
         return false; //Se a validação do login falhar, impede o envio do formulário
     }
 
-    if (senha < 7 || confirmasenha < 7) {
+    if (senha.length < 7 || confirmasenha.length < 7) {
         alert('[ERRO] Senha deve ter 7 caracteres.')
     }
 

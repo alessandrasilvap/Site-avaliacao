@@ -12,7 +12,6 @@ body {
 }
 
 /* HEADER */
-
 header {
     background-color: #5e87f8;
     padding: 2rem;
@@ -25,75 +24,63 @@ h2 {
 }
 
 /* CONTAINER PRINCIPAL */
-
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-
     padding: 3rem;
     min-height: 80vh;
-
     flex-wrap: wrap;
 }
 
 /* FORM */
-
 form {
     flex: 1;
     width: 100%;
     min-width: 300px;
     max-width: 500px;
-
     background-color: white;
     border: 2px solid #ccc;
     border-radius: 20px;
-
     padding: 2rem;
-
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 label {
     display: block;
-
     margin-bottom: 0.5rem;
     margin-top: 1rem;
-
     font-size: 1rem;
     font-weight: bold;
     color: #1e57a4;
 }
 
-input,
-select {
+input, select {
     width: 100%;
-
     padding: 0.8rem;
-
     border-radius: 30px;
     border: 1px solid #ccc;
-
     font-size: 1rem;
 }
 
-/* IMAGEM */
+input:focus, select:focus {
+    outline: none;
+    border-color: #1e57a4;
+    box-shadow: 0 0 5px rgba(30, 87, 164, 0.3);
+}
 
+/* IMAGEM */
 .meio-circulo {
     flex: 1;
-
     min-width: 300px;
     max-width: 600px;
-
     height: 600px;
-
     background-color: #1e57a4;
-
     border-radius: 300px 0 0 300px;
-
     overflow: hidden;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,26 +93,17 @@ select {
 }
 
 /* BOTÃO */
-
 #botao {
     width: 100%;
-
     margin-top: 2rem;
-
     padding: 1rem;
-
     border: none;
     border-radius: 30px;
-
     background-color: #1e57a4;
-
     color: white;
-
     font-size: 1rem;
     font-weight: bold;
-
     cursor: pointer;
-
     transition: 0.3s;
 }
 
@@ -134,13 +112,10 @@ select {
 }
 
 /* FOOTER */
-
 footer {
     background-color: #5e87f8;
     color: white;
-
     padding: 2rem;
-
     text-align: center;
 }
 
@@ -150,9 +125,7 @@ footer {
 }
 
 /* RESPONSIVIDADE */
-
 @media (max-width: 768px) {
-
     .container {
         flex-direction: column;
         padding: 1.5rem;
@@ -161,7 +134,6 @@ footer {
     .meio-circulo {
         width: 100%;
         height: 350px;
-
         border-radius: 40px;
     }
 
