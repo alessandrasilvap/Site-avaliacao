@@ -50,8 +50,6 @@ function mascaraCPF(v) {
 
 
 
-
-
 //Função que valida todos os campos de cadastro da segunda tela.
 function validarFormu(event) {
     event.preventDefault();
@@ -149,6 +147,7 @@ function formatarCEP(input) {
 }
 
 
+
 document.getElementById('buscar').addEventListener('click', function() {
 
     const cep = document.getElementById('cep').value;
@@ -172,7 +171,7 @@ document.getElementById('buscar').addEventListener('click', function() {
 
 
 document.getElementById('buscar').addEventListener('click', function() {
-document.getElementById('endereco').textContent = '';
+    document.getElementById('endereco').textContent = '';
 });
 
 

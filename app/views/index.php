@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Avaliação</title>
-    <link rel="icon" href="img.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/img.png">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header> <h2>CADASTRO DE USUÁRIO</h2> </header>
     <hr>
     <div class="container">
-        <form action="#" name="formularioavaliadora">
+        <form action="#" name="formOne">
             <label for="nome">Nome Completo:</label>
-            <input type="text" id="nome">
+            <input type="text" id="nome" name="nome">
 
             <label>Data de nascimento:</label>
-            <input type="date" id="data">
+            <input type="date" id="data" name="data">
             
             <label>Sexo:</label>
-            <select id="select">
+            <select id="select" name="select">
                 <option value="1">Selecione</option>
                 <option value="2">Feminino</option>
                 <option value="3">Masculino</option>
@@ -27,18 +27,18 @@
             </select>
             
             <label>Nome Materno:</label>
-            <input type="text" id="nomeMaterno" placeholder="Digite...">
+            <input type="text" id="nomeMaterno" name="nomeMaterno" placeholder="Digite...">
             
             <label>CPF:</label>
-            <input type="text" id="cpf" placeholder="000.000.000-00" oninput="mascaraCPF(this)" maxlength="14">
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" oninput="mascaraCPF(this)" maxlength="14">
             
-            <button type="submit" id="botao" onclick="validarFormulario(event)">
+            <button type="submit" id="botao" name="botao" onclick="validarFormulario(event)">
                 CONTINUAR
             </button>
         </form>
         
         <div class="meio-circulo">
-            <img src="img.png" alt="desenho de mulher mexendo no computador">
+            <img src="/css/img.png" alt="desenho de mulher mexendo no computador">
         </div>
     </div>
     <br>
@@ -51,6 +51,6 @@
             </ul>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
