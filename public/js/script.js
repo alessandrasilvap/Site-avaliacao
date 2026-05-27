@@ -1,6 +1,5 @@
 //Função que valida todos os campos de cadastro da primeira tela.
-function validarFormulario(event) {
-    event.preventDefault();
+function validarFormulario() {
     var nome = document.getElementById('nome').value;
     var data = document.getElementById('data').value;
     var select = document.getElementById('select').value;
@@ -33,7 +32,7 @@ function validarFormulario(event) {
     
     //Se todas as validações passarem
     alert('Primeiros dados cadastrados!');
-    window.location.href='pagina2.html'
+    return true;
 }
 
 
@@ -51,9 +50,7 @@ function mascaraCPF(v) {
 
 
 //Função que valida todos os campos de cadastro da segunda tela.
-function validarFormu(event) {
-    event.preventDefault();
-    
+function validarFormu() {
     var celular = document.getElementById('celular').value;
     var telFixo = document.getElementById('telFixo').value;
     var cep = document.getElementById('cep').value;
@@ -85,7 +82,7 @@ function validarFormu(event) {
 
     //Se todas as validações passarem
     alert('Dados cadastrados!');
-    window.location.href='https://alessandrasilvap.github.io/Portfolio-website/'
+    return true;
 }
 
 

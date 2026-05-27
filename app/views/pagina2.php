@@ -11,7 +11,7 @@
     <header> <h2>CADASTRO DE USUÁRIO</h2> </header>
     <hr>
     <div class="container">
-        <form action="#" name="formTwo">
+        <form action="../app/controller/UsuarioController.php" method="POST" onsubmit="return validarFormu()">
             <label>Telefone Celular:</label> 
             <input type="text" id="celular" name="celular" placeholder="+00(00)00000-0000" oninput="mascaraCel(this)" maxlength="17">
 
@@ -38,10 +38,10 @@
 
             <div class="botoes-container">
                 <button type="button" class="botoes" name="botoes">
-                    <a href="/views/index.php">VOLTAR</a>
+                    <a href="../views/index.php">VOLTAR</a>
                 </button>
 
-                <button type="submit" class="botoes" name="botoes" onclick="validarFormu(event)">
+                <button type="submit" class="botoes" name="botoes">
                     ENVIAR
                 </button>
 

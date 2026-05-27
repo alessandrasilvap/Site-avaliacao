@@ -11,7 +11,7 @@
     <header> <h2>CADASTRO DE USUÁRIO</h2> </header>
     <hr>
     <div class="container">
-        <form action="#" name="formOne">
+        <form action="../app/controller/UsuarioController.php" method="POST" onsubmit="return validarFormulario()">
             <label for="nome">Nome Completo:</label>
             <input type="text" id="nome" name="nome">
 
@@ -32,13 +32,13 @@
             <label>CPF:</label>
             <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" oninput="mascaraCPF(this)" maxlength="14">
             
-            <button type="submit" id="botao" name="botao" onclick="validarFormulario(event)">
+            <button type="submit" id="botao" name="botao">
                 CONTINUAR
             </button>
         </form>
         
         <div class="meio-circulo">
-            <img src="/css/img.png" alt="desenho de mulher mexendo no computador">
+            <img src="/img/img.png" alt="desenho de mulher mexendo no computador">
         </div>
     </div>
     <br>
